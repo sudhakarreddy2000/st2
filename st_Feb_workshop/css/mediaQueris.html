@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            width:1000px;
+            height:200px;
+            background-color: yellow;
+            margin:auto;
+        }
+        @media screen and (max-width:999px){
+           #container{
+            width:100%;
+            background-color: red;
+           }
+        }
+
+        @media screen and (max-width:600px){
+            #container{
+                background-color: black;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">    </div>
+</body>
+</html>
